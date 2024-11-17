@@ -33,8 +33,14 @@ body {
 .container {
   width: 1440px;
   margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
+.div-header {
+  width: 1440px;
+  margin: 0 auto;
+}
 .div-first {
   display: flex;
   justify-content: end;
@@ -192,12 +198,24 @@ body {
   display: inline-flex;
 }
 .div-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 720px;
   height: 686px;
   padding: 160px 80px;
-  background-color: #e7e8e3;
+  background-color: #f3f3f2;
+  position: relative;
+  overflow: hidden;
 }
 .hero-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 171px;
+  height: 29px;
+  border-radius: 32px;
+  background-color: #e7e8e3;
   color: #2a2c1f;
   font-family: Roboto;
   font-size: 14px;
@@ -221,6 +239,23 @@ body {
   font-weight: 400;
   line-height: 30px; /* 150% */
 }
+
+.icon-hero-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-27%, 0); /* Для вирівнювання по центру */
+  z-index: 1; /* Забезпечує накладання над іншими елементами */
+}
+
+.icon-hero-down {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(25%, 0); /* Зміщення для кращого вирівнювання */
+  z-index: 1; /* Забезпечує правильний порядок накладання */
+}
+
 .div-hero-search {
   display: inline-flex;
   gap: 16px;
@@ -228,8 +263,17 @@ body {
 .form-search {
 }
 .label-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.icon-search {
+  position: absolute;
+  left: 16px;
+  margin-right: 16px;
 }
 .input-search {
+  padding-left: 56px;
   width: 310px;
   height: 48px;
   flex-shrink: 0;
@@ -237,6 +281,12 @@ body {
   border: 1px solid #e7e8e3;
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
 }
 .hero-btn-search {
   width: 154px;
@@ -262,4 +312,49 @@ body {
   .div-hero-img {
     background: url(../images/hero@2x.jpg) lightgrey center / cover no-repeat;
   }
+}
+
+/* logoipson */
+.logoipson-sec {
+  padding-top: 67px;
+}
+
+.div-logoipson {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.div-icon {
+  display: inline-flex;
+  gap: 32px;
+}
+.h2-logoipson {
+  width: 243px;
+  height: 44px;
+  margin-right: 309px;
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.icon-logoipson {
+  .icon-logoipson {
+    display: inline-block; /* Переконайтеся, що іконки відображаються */
+    width: 120px;
+    height: 28px;
+    fill: currentColor; /* Забезпечує використання кольору шрифту або визначеного кольору */
+  }
+}
+.icon-1 {
+}
+.icon-2 {
+}
+.icon-3 {
+}
+.icon-4 {
+}
+.icon-5 {
 }
