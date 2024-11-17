@@ -21,12 +21,20 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.container {
-}
 
 .header {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .div-first {
   display: flex;
   justify-content: end;
@@ -170,4 +178,88 @@ body {
   border: 1px solid #cf6f49;
   background: #cf6f49;
   cursor: pointer;
+}
+
+/* hero */
+.hero-sec {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.hero {
+  display: inline-flex;
+}
+.div-hero {
+  width: 720px;
+  height: 686px;
+  padding: 160px 80px;
+  background-color: #e7e8e3;
+}
+.hero-h1 {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+.hero-h2 {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 67.2px; /* 120% */
+}
+.hero-p1 {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.div-hero-search {
+  display: inline-flex;
+  gap: 16px;
+}
+.form-search {
+}
+.label-search {
+}
+.input-search {
+  width: 310px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.hero-btn-search {
+  width: 154px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #cf6f49;
+  background: #cf6f49;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.div-hero-img {
+  width: 720px;
+  height: 686px;
+  background: url(../images/hero.jpg) lightgrey center / cover no-repeat;
+}
+@media only screen and (min-resolution: 192dpi),
+  only screen and (min-device-pixel-ratio: 2) {
+  .div-hero-img {
+    background: url(../images/hero@2x.jpg) lightgrey center / cover no-repeat;
+  }
 }
