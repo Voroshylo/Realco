@@ -16,6 +16,12 @@ h3 {
 }
 p {
 }
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -557,7 +563,6 @@ body {
   gap: 80px;
 }
 
-
 .div-forward-img {
   width: 600px;
   height: 600px;
@@ -702,4 +707,165 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+/*houses*/
+.houses {
+}
+.container {
+}
+.houses-cont {
+  background: #f5f5f2;
+  display: flex;
+  flex-direction: column;
+  padding-top: 132px;
+  padding-bottom: 160px;
+}
+
+.div-houses-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  position: relative;
+  overflow: hidden;
+}
+.houses-p-first {
+  width: 92px;
+  height: 29px;
+  border-radius: 32px;
+  background: #e7e8e3;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  margin-bottom: 21px;
+}
+.houses-h2 {
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+.houses-ul {
+  column-gap: 32px;
+  row-gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.houses-li {
+  box-sizing: border-box;
+  width: calc((100% - 64px) / 3);
+}
+.div-houses-li-text {
+  display: flex;
+  width: 100%;
+  height: 192px;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0 0 16px 16px;
+  background-color: #fff;
+  border-top: none;
+}
+.houses-img {
+  width: 100%;
+  display: block;
+}
+.houses-h3 {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px; /* 140% */
+}
+.houses-li-p-price {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+}
+.houses-li-p {
+  margin-top: 16px;
+}
+.houses-li-span {
+  color: #65665c;
+  font-family: "Material Icons";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-right: 10px;
+}
+.div-houses-btn {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.houses-btn {
+  width: 192px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.houses-a {
+  display: flex;
+  width: 130px;
+  height: 40px;
+  padding: 8.141px 0px 7.859px 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.houses-span-a {
+  color: #2a2c1f;
+  text-align: center;
+  font-family: "Material Icons";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.icon-houses-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-27%, 0); /* Для вирівнювання по центру */
+  z-index: 1; /* Забезпечує накладання над іншими елементами */
+}
+.icon-houses-down {
+  width: 135px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(25%, 0); /* Зміщення для кращого вирівнювання */
+  z-index: 1; /* Забезпечує правильний порядок накладання */
 }
