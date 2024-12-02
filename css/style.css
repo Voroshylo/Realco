@@ -725,10 +725,7 @@ body {
   line-height: 24px; /* 150% */
 }
 /*houses*/
-.houses {
-}
-.container {
-}
+
 .houses-cont {
   position: relative;
   overflow: hidden;
@@ -738,8 +735,7 @@ body {
   padding-top: 132px;
   padding-bottom: 160px;
 }
-.div-houses {
-}
+
 .div-houses-text {
   display: flex;
   flex-direction: column;
@@ -893,10 +889,7 @@ body {
 }
 
 /*families*/
-.location {
-}
-.container {
-}
+
 .div-location {
   display: flex;
   flex-direction: column;
@@ -1031,8 +1024,6 @@ body {
 
 /*location*/
 
-.container {
-}
 .div-families-cont {
   background: linear-gradient(to bottom, #f5f5f2 50%, #ffffff 50%);
 }
@@ -1101,14 +1092,12 @@ body {
 }
 
 /*reviews*/
-.reviews {
-}
+
 .div-reviews {
   padding-top: 160px;
   padding-bottom: 160px;
 }
-.container {
-}
+
 .div-reviews-text {
   display: flex;
   flex-direction: column;
@@ -1133,8 +1122,7 @@ body {
   font-weight: 400;
   line-height: 27px; /* 150% */
 }
-.div-reviews-ul {
-}
+
 .reviews-ul {
   display: flex;
   gap: 32px;
@@ -1155,8 +1143,7 @@ body {
   gap: 27px;
   margin-bottom: 56px;
 }
-.reviews-li-h2 {
-}
+
 .reviews-li-svg {
   width: 20px;
   height: 20px;
@@ -1205,10 +1192,7 @@ body {
 }
 
 /*blog*/
-.blog {
-}
-.container {
-}
+
 .div-blog {
   padding-top: 128px;
   padding-bottom: 129px;
@@ -1373,10 +1357,7 @@ body {
 }
 
 /*subscribe*/
-.subscribe {
-}
-.container {
-}
+
 .div-subscribe {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -1511,15 +1492,13 @@ body {
 }
 
 /*footer*/
-.foofter {
-}
+
 .div-footer {
   display: flex;
   background: #f5f5f2;
   padding: 26px 144px;
 }
-.copirite-footer {
-}
+
 .div-footer-social {
   margin-left: 664px;
   display: flex;
@@ -1527,8 +1506,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.footer-a {
-}
+
 .footer-svg {
   width: 24px;
   height: 24px;
@@ -1538,6 +1516,4 @@ body {
   width: 24px;
   height: 24px;
   stroke: #2a2c1f;
-}
-.footer-icon {
 }
