@@ -190,6 +190,11 @@ body {
   border: 1px solid #cf6f49;
   background: #cf6f49;
   cursor: pointer;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #cf6f10;
+  }
 }
 
 /* hero */
@@ -307,6 +312,11 @@ body {
   font-weight: 400;
   line-height: 30px; /* 150% */
   cursor: pointer;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #cf6f10;
+  }
 }
 .div-hero-img {
   width: 720px;
@@ -1078,6 +1088,11 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #cf6f10;
+  }
 }
 
 /*reviews*/
@@ -1391,6 +1406,11 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 21px; /* 150% */
+  transition: color 300ms;
+  &:hover,
+  &:focus {
+    color: #cf6f49;
+  }
 }
 .div-sub-cms {
   display: inline-flex;
@@ -1443,6 +1463,11 @@ body {
   border: 1px solid #e7e8e3;
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: #cf6f49;
+  }
 }
 .sub-btn {
   width: 127px;
@@ -1457,6 +1482,11 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #cf6f10;
+  }
 }
 .sub-p-botom {
   color: #65665c;
