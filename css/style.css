@@ -1498,6 +1498,10 @@ body {
   width: 24px;
   height: 24px;
   fill: #2a2c1f;
+}
+.footer-svg-x {
+  width: 24px;
+  height: 24px;
   stroke: #2a2c1f;
 }
 .footer-icon {
